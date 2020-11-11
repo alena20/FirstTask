@@ -1,9 +1,9 @@
-package edu.epam.numbers.main;
+package epam.firstTask.squere.main;
 
 
-import edu.epam.numbers.entity.FirstTaskNumber;
-import edu.epam.numbers.report.FirstTaskReport;
-import edu.epam.numbers.service.FirstTaskService;
+import epam.firstTask.squere.entity.FirstTaskNumber;
+import epam.firstTask.squere.report.FirstTaskReport;
+import epam.firstTask.squere.service.FirstTaskService;
 
 public class FirstTaskMain {
     public static void main(String[] args) {

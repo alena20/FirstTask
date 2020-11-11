@@ -1,14 +1,13 @@
-package edu.epam.numbers.service;
+package epam.secondTask.days.service;
 
-import edu.epam.numbers.entity.FirstTaskNumber;
+import epam.firstTask.squere.entity.FirstTaskNumber;
+import epam.firstTask.squere.service.FirstTaskService;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
-
 public class FirstTaskServiceTest {
     @Test(description = "First task")
-    public void lastNuberOfSquere(){
+    public void lastNumberOfSquare(){
         FirstTaskNumber num = new FirstTaskNumber(55);
         FirstTaskService service = new FirstTaskService();
         int lastNum = service.lastNumber(num);

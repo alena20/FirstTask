@@ -1,6 +1,6 @@
-package edu.epam.numbers.service;
+package epam.firstTask.squere.service;
 
-import edu.epam.numbers.entity.FirstTaskNumber;
+import epam.firstTask.squere.entity.FirstTaskNumber;
 
 public class FirstTaskService {
 

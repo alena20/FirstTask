@@ -1,4 +1,4 @@
-package edu.epam.numbers.entity;
+package epam.firstTask.squere.entity;
 
 public class FirstTaskNumber {
 
@@ -19,8 +19,6 @@ public class FirstTaskNumber {
 
     @Override
     public String toString() {
-        return "FirstTaskNumber{" +
-                "num=" + num +
-                '}';
+        return "num=" + num;
     }
 }
